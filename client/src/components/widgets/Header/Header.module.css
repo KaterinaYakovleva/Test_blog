@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  margin: 0;
+  padding: 1rem 2rem;
+  background-color: #000;
+  color: white;
+  font-family: sans-serif;
+  width: auto;
+  box-sizing: border-box;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+}
+
+.logoImg {
+  width: 29px;
+  height: 29px;
+  object-fit: contain;
+}
+
+.logoIm{ 
+  object-fit: contain;
+  position: relative;
+  right: 20%;
+  
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  right: 74%;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: blue;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
