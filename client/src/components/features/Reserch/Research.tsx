@@ -1,4 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState } from "react";
+import styles from "./Research.module.css";
 
 export default function Research() {
   const [input, setInput] = useState<string>("");
@@ -14,22 +16,23 @@ export default function Research() {
   };
 
   return (
-    <div className="research_part">
-      <span className="blog">Блог</span>
+    <div className={styles.research_part}>
+      <span className={styles.blog}>Блог</span>
       <input
-        className="research"
+        className={styles.research}
         type="text"
         name="text"
         onChange={hadleChange}
         placeholder="Поиск"
       ></input>
       <button
-        className={`filter ${button ? 'active' : 'inactive'}`}
+        className={`${styles.filter} ${button ? 'active' : 'inactive'}`}
         type="button"
         onClick={handleButtonChange}
       >
-        {button ? "Фильтр" : "Скрыть фильтр"}
+        {button ? "Фильтр" : "Скрыть фильтр ^"}
       </button>
+      <div> Здесь фильтры</div>
     </div>
   );
 }
