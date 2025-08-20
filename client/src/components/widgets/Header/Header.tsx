@@ -21,13 +21,14 @@ export default function Header(): JSX.Element {
           Главная
         </button>
         <button
-          className={` ${btn ? styles.navi : "inactive"}`}
+          className={btn ? styles.navi : styles.inactive}
           type="button"
           onClick={handleButtonChange}
         >
-          {btn ? "Блог" : <Research />}
+          Блог
         </button>
       </nav>
+      {!btn && <Research />}
     </header>
   );
 }

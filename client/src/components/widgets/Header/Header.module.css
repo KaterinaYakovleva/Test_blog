@@ -10,8 +10,7 @@
   font-family: sans-serif;
   width: auto;
   box-sizing: border-box;
-  /* position: relative; */
-  
+  position: relative;
 }
 
 .logo {
@@ -27,11 +26,10 @@
   object-fit: contain;
 }
 
-.logoIm{ 
+.logoIm {
   object-fit: contain;
   position: relative;
   right: 20%;
-  
 }
 
 .nav {
@@ -53,8 +51,17 @@
 }
 
 .navi:hover {
-  background-color: #FFFFFF1A;
-  color: #3E97FF;
+  background-color: #ffffff1a;
+  color: #3e97ff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.inactive {
+  background-color: #ffffff1a;
+  color: #3e97ff;
+  padding: 0.5rem 1rem;
+  border: none;
   border-radius: 5px;
   font-size: 16px;
 }
