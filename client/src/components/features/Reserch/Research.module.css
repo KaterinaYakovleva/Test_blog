@@ -1,0 +1,44 @@
+.research_part {
+    background-color: white;
+    margin-top: 110px;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    border-bottom: 1px solid #F9F9F9;
+}
+
+.modal_part {
+    display: flex;
+}
+
+.blog {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    margin-right: 80px;
+}
+
+.research {
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    margin-right: 300px;
+}
+
+.filter {
+    background-color: white;
+    border: none;
+    color: #A1A5B7;
+    font-size: 14px;
+}
+
+.filter:hover {
+    background-color: white;
+    border: none;
+    color: #A1A5B7;
+    font-size: 14px;
+}

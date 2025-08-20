@@ -1,0 +1,23 @@
+.fltr_btn {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: absolute;
+  margin-top: 40px;
+}
+
+.fltr_btn button {
+  width: auto;
+  border: none;
+  border-radius: 20px;
+  background-color: #eef6ff;
+  font-size: 16px;
+  color: #2884ef;
+  font-weight: 500;
+  padding: 10px 15px;
+}
+
+.fltr_btn button:hover {
+  background-color: #3e97ff;
+  color: #ffffff;
+}
