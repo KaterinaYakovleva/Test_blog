@@ -18,10 +18,10 @@ const posts: Post[] = [
   {
     id: 1,
     image: {
-      url: "https://example.com/images/post1.jpg",
+      url: "/pic1.svg",
       alt: "Человек в шляпе на фоне гор и леса",
     },
-    date: "2025-04-09",
+    date: "9 Апр",
     readTime: "2 мин",
     commentsCount: 1,
     title: "Вдохновение в каждом шаге",
@@ -32,10 +32,10 @@ const posts: Post[] = [
   {
     id: 2,
     image: {
-      url: "https://example.com/images/post2.jpg",
+      url: "/pic 2.svg",
       alt: "Коала на дереве",
     },
-    date: "2025-04-06",
+    date: "6 Апр",
     readTime: "3 мин",
     commentsCount: 5,
     title: "Моменты тишины и покоя",
@@ -46,10 +46,10 @@ const posts: Post[] = [
   {
     id: 3,
     image: {
-      url: "https://example.com/images/post3.jpg",
+      url: "/pics/pic 3.svg",
       alt: "Руки держат цветы",
     },
-    date: "2025-04-05",
+    date: "5 Апр",
     readTime: "3 мин",
     commentsCount: 10,
     title: "Цвета природы в наших руках",
@@ -60,10 +60,10 @@ const posts: Post[] = [
   {
     id: 4,
     image: {
-      url: "https://example.com/images/post1.jpg",
+      url: "/pics/pic 4.svg",
       alt: "Обезьяна",
     },
-    date: "2025-04-04",
+    date: "4 Апр",
     readTime: "15 мин",
     commentsCount: 6,
     title: "Семейные узы в дикой природе",
@@ -74,10 +74,10 @@ const posts: Post[] = [
   {
     id: 5,
     image: {
-      url: "https://example.com/images/post1.jpg",
+      url: "/pics/pic 5.svg",
       alt: "Природа",
     },
-    date: "2025-04-03",
+    date: "3 Апр",
     readTime: "2 мин",
     commentsCount: 2,
     title: "Гармония городских и природных пейзажей ",
@@ -88,10 +88,10 @@ const posts: Post[] = [
   {
     id: 6,
     image: {
-      url: "https://example.com/images/post1.jpg",
+      url: "/pics/pic 5.svg",
       alt: "Cобака и человек",
     },
-    date: "2025-04-01",
+    date: "6 Апр",
     readTime: "4 мин",
     commentsCount: 0,
     title: "Моменты, которые остаются в сердце ",
