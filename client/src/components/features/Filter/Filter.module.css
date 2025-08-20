@@ -1,7 +1,6 @@
 .fltr_btn {
   display: flex;
   justify-content: space-between;
-  background-color: white;
   position: absolute;
   margin-top: 40px;
 }
