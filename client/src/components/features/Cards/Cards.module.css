@@ -1,0 +1,27 @@
+.card_container{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 408px;
+}
+
+.foto{
+    width: 400px;
+    height: 250px;
+    border-radius: 12px;
+}
+.infoMain{
+
+}
+
+.title{
+font-size: 22px;
+}
+
+.description{
+
+}
+.tags{
+    
+}
+
+
