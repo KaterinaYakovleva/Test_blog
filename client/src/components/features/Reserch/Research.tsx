@@ -26,6 +26,7 @@ export default function Research() {
           onChange={hadleChange}
           placeholder="Поиск"
         ></input>
+        {!button && <button className={styles.btn_delete}>Очистить</button>}
         <button
           className={`${styles.filter} ${button ? "active" : "inactive"}`}
           type="button"

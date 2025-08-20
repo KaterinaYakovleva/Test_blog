@@ -42,3 +42,10 @@
     color: #A1A5B7;
     font-size: 14px;
 }
+
+.btn_delete {
+    background-color: white;
+    border: none;
+    color: #2884EF;
+
+}
