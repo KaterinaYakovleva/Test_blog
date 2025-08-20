@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 import logoImage from "../../../components/widgets/Header/Vector (1).svg";
 import logoIm from "../../../components/widgets/Header/Vector (2).svg";
 import Research from "../../features/Reserch/Research";
-
+        
 export default function Header(): JSX.Element {
   const [btn, setBtn] = useState<boolean>(true);
   const handleButtonChange = (e: React.MouseEvent<HTMLButtonElement>) => {
