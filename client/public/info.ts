@@ -3,10 +3,10 @@ interface Image {
   alt: string;
 }
 
-interface Post {
+export interface Post {
   id: number;
   image: Image;
-  date: string; // Формат: YYYY-MM-DD
+  date: string;
   readTime: string;
   commentsCount: number;
   title: string;
